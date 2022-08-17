@@ -14,7 +14,11 @@ if (b.Length == 5)
     if(b[0] == b[4])
         {
             if(b[1] == b[3])
-            Console.Write("Число "  + (str) + " палиндром.");         
+            Console.Write("Число "  + (str) + " палиндром.");
+            else
+            {
+                Console.Write("Число "  + (str) + " не палиндром .");
+            }         
         }
     else
         {
