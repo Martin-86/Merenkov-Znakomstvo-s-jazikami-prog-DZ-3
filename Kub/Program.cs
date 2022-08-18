@@ -2,7 +2,7 @@
 // 3 -> 1, 8, 27
 // 5 -> 1, 8, 27, 64, 125
 
-Console.WriteLine("введите число из пяти цифр");
+Console.WriteLine("введите число");
 int a = Convert.ToInt32(Console.ReadLine());
 
 void FillArray(int[] collection)
